@@ -104,7 +104,7 @@ plot shows that in holiday people uses the rented bike from 2pm-8pm
 
 # Heatmap
 we check correletion betweeen variables using Correlation heatmap, it is graphical representation of correlation matrix representing correlation between different variables
-
+https://github.com/debashishdas40/Bike-Sharing-Demand-Prediction/issues/3#issue-1303044276
 
 
 We can observe on the heatmap that on the target variable line the most positively correlated variables to the rent are :
@@ -140,7 +140,7 @@ GridSearchCV helps to loop through predefined hyperparameters and fit the model 
 ![image](https://user-images.githubusercontent.com/30859632/178679404-fa34c847-0656-4f03-961b-993993877b98.png)
 
 
-
+https://github.com/debashishdas40/Bike-Sharing-Demand-Prediction/issues/7#issue-1303051468
 
 # CONCLUSION
 
