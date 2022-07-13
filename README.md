@@ -4,25 +4,8 @@
 Problem Description
 Currently Rental bikes are introduced in many urban cities for the enhancement of mobility comfort. It is important to make the rental bike available and accessible to the public at the right time as it lessens the waiting time. Eventually, providing the city with a stable supply of rental bikes becomes a major concern. The crucial part is the prediction of bike count required at each hour for the stable supply of rental bikes.
 
-# Data Description
-The dataset contains weather information (Temperature, Humidity, Windspeed, Visibility, Dewpoint, Solar radiation, Snowfall, Rainfall), the number of bikes rented per hour and date information.
-Attribute Information:
-Date : year-month-day
-Rented Bike count - Count of bikes rented at each hour
-Hour - Hour of he day
-Temperature-Temperature in Celsius
-Humidity - %
-Windspeed - m/s
-Visibility - 10m
-Dew point temperature - Celsius
-Solar radiation - MJ/m2
-Rainfall - mm
-Snowfall - cm
-Seasons - Winter, Spring, Summer, Autumn
-Holiday - Holiday/No holiday
-Functional Day - NoFunc(Non Functional Hours), Fun(Functional hours)
 
-Features description
+# Features description
 Breakdown of Our Features:
 
 Date : The date of the day, during 365 days from 01/12/2017 to 30/11/2018, formating in DD/MM/YYYY, type : str, we need to convert into datetime format.
@@ -54,17 +37,10 @@ Holiday: If the day is holiday period or not, type: str
 Functioning Day: If the day is a Functioning Day or not, type : str
 
 # Preprocessing the dataset
-Why do we need to handle missing values?
-
-The real-world data often has a lot of missing values. The cause of missing values can be data corruption or failure to record data. The handling of missing data is very important during the preprocessing of the dataset as many machine learning algorithms do not support missing values.that's why we check missing values first
+Handle missing values
 
 Duplicate values
-Why is it important to remove duplicate records from my data?
-
-"Duplication" just means that you have repeated data in your dataset. This could be due to things like data entry errors or data collection methods. by removing duplication in our data set, Time and money are saved by not sending identical communications multiple times to the same person.***
-
 Changing data type
-As "Hour","month","weekdays_weekend" column are show as a integer data type but actually it is a category data tyepe. so we need to change this data tyepe if we not then, while doing the further anlysis and correleted with this then the values are not actually true so we can mislead by this.
 
 
 # Exploratory Data Analysis Of The Data Set
@@ -84,11 +60,14 @@ Our dependent variable is "Rented Bike Count" so we need to analysis this column
 
 # Hours image
 
+https://github.com/debashishdas40/Bike-Sharing-Demand-Prediction/issues/4#issue-1303046757
+
 From the above point plot and bar plot we can say that in the week days which represent in blue colur show that the demand of the bike higher because of the office.
 Peak Time are 7 am to 9 am and 5 pm to 7 pm*
 The orange colur represent the weekend days, and it show that the demand of rented bikes are very low specially in the morning hour but when the evening start from 4 pm to 8 pm the demand slightly increases.*
 
 # Season Wise by dayHours
+https://github.com/debashishdas40/Bike-Sharing-Demand-Prediction/issues/5#issue-1303047287
 
 In the above bar plot and point plot which shows the use of rented bike in in four different seasons, and it clearly shows that,
 In summer season the use of rented bike is high and peak time is 7am-9am and 7pm-5pm.
@@ -98,6 +77,8 @@ In winter season the use of rented bike is very low because of snowfall.
 
 
 # Booking count analysys Holiday and Non holidays
+
+https://github.com/debashishdas40/Bike-Sharing-Demand-Prediction/issues/6#issue-1303048002
 In the above bar plot and point plot which shows the use of rented bike in a holiday, and it clearly shows that,
 plot shows that in holiday people uses the rented bike from 2pm-8pm
 
@@ -119,9 +100,14 @@ Rainfall
 
 Feature Encoding Techniques
 Model Training
-1)LINEAR REGRESSION
-
-2) LASSO REGRESSION
+Linear regression
+1	Lasso regression	
+2	Ridge regression	
+3	Elastic net regression
+4 Dicision tree regression	
+5	Random forest regression	
+6	Gradient boosting regression	
+7	Gradient Boosting gridsearchcv	
 
 
 
