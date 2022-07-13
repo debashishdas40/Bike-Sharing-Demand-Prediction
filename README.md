@@ -60,13 +60,17 @@ Our dependent variable is "Rented Bike Count" so we need to analysis this column
 
 # Hours image
 
+
 https://github.com/debashishdas40/Bike-Sharing-Demand-Prediction/issues/4#issue-1303046757
+
 
 From the above point plot and bar plot we can say that in the week days which represent in blue colur show that the demand of the bike higher because of the office.
 Peak Time are 7 am to 9 am and 5 pm to 7 pm*
 The orange colur represent the weekend days, and it show that the demand of rented bikes are very low specially in the morning hour but when the evening start from 4 pm to 8 pm the demand slightly increases.*
 
 # Season Wise by dayHours
+
+
 https://github.com/debashishdas40/Bike-Sharing-Demand-Prediction/issues/5#issue-1303047287
 
 In the above bar plot and point plot which shows the use of rented bike in in four different seasons, and it clearly shows that,
@@ -79,6 +83,8 @@ In winter season the use of rented bike is very low because of snowfall.
 # Booking count analysys Holiday and Non holidays
 
 https://github.com/debashishdas40/Bike-Sharing-Demand-Prediction/issues/6#issue-1303048002
+
+
 In the above bar plot and point plot which shows the use of rented bike in a holiday, and it clearly shows that,
 plot shows that in holiday people uses the rented bike from 2pm-8pm
 
